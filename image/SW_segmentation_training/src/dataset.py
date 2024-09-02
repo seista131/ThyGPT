@@ -16,7 +16,7 @@ class ImageDataset(Dataset):
     def __getitem__(self, idx):
         img_name = self.images[idx]
         img_path = os.path.join(self.image_dir, img_name)
-        mask_path = os.path.join(self.mask_dir, img_name)  # 假设掩码文件名与图像文件名相同
+        mask_path = os.path.join(self.mask_dir, img_name) 
 
         image = Image.open(img_path).convert("RGB")
         mask = Image.open(mask_path).convert("L")
