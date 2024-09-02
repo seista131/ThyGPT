@@ -13,19 +13,16 @@ Thyroid nodules are a common endocrine condition, with a prevalence of over 60% 
 biopsy are the primary methods used to assess the risk of thyroid nodules. However, the diagnostic outcomes of ultrasonography rely heavily on radiologists' experiences and skills. Even with FNA, precise risk evaluation remains elusive for over 15% of nodules. To a certain extent, these uncertainties in the risk assessment of thyroid nodules have led to a widespread issue of overdiagnosis and overtreatment, such as unnecessary biopsies or invasive surgeries for nodules ultimately determined to be benign8-10. This phenomenon not only inflicts significant physical and psychological trauma upon patients but also substantially augments healthcare expenditure. The current situation of overtreatment of thyroid nodules emphasizes the necessity for more refined and accurate risk assessment tools.
 Recently, studies have indicated that computer-aided diagnosis (CAD) based on US images and artificial intelligence (AI) models holds promise as an effective complementary solution. In general, these studies have focused on developing specialized AI models, such as ThyNet, RedImageNet, and DeepThy-Net, to extract latent features from large US image data sets and assess the risk of thyroid nodules. These US image-based CAD models have made substantial progress; however, they also have significant shortcomings. First, existing CAD models lack transparency and cannot provide the rationale or decision-making basis behind their diagnoses, creating a gap in understanding between radiologists and CAD models. This "black box"characteristic undermines the confidence of radiologists, patients, and healthcare administrators in the diagnostic results of these CAD models. Second, the outputs of existing CAD models are mostly simple probability values or categorical labels; therefore, they lack meaningful interaction with radiologists. This "mute box"characteristic renders challenges for radiologists indistinguishing which AI-based diagnoses are accurate and reasonable and which may be erroneous or Alhallucinations. These barriers in communication and comprehension have even led many radiologists to abandon these AI-based CAD methods
 
-*Project Overview*
 
 
-## Overview
+#Project Overview
 ThyroidGPT is an AI-powered system designed for thyroid diagnosis and consultation, utilizing a large language model such as LLaMA. The system integrates advanced natural language processing (NLP) techniques to assist healthcare professionals in diagnosing thyroid-related conditions. It also incorporates external knowledge bases and vector stores to enhance the accuracy and relevance of its responses.
 
-## Directory Structure
-
-### Large Language Model Directory
+*Large Language Model Directory*
 This directory contains the core code of the large language model that powers ThyroidGPT. It includes the main logic for natural language understanding, processing, and generation.
 
-### image Directory
+*image Directory*
 This directory is dedicated to pre-processing images and collecting multimodal data for detection. It supports the integration of visual information with the language model, enabling a more comprehensive analysis and diagnosis.
 
-### AIGC_evaluation and Other Directories
+*AIGC_evaluation and Other Directories*
 These directories are used to evaluate the performance of the ThyroidGPT model and compare it with other large language models. They include benchmarking scripts, evaluation metrics, and results analysis tools that help in assessing the model's accuracy, efficiency, and overall effectiveness.
