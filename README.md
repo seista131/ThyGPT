@@ -18,11 +18,11 @@ Recently, studies have indicated that computer-aided diagnosis (CAD) based on US
 ## Project Overview
 ThyroidGPT is an AI-powered system designed for thyroid diagnosis and consultation, utilizing a large language model such as LLaMA. The system integrates advanced natural language processing (NLP) techniques to assist healthcare professionals in diagnosing thyroid-related conditions. It also incorporates external knowledge bases and vector stores to enhance the accuracy and relevance of its responses.
 
-*Large Language Model Directory*
+*Large Language Model Directory：*
 This directory contains the core code of the large language model that powers ThyroidGPT. It includes the main logic for natural language understanding, processing, and generation.
 
-*image Directory*
+*image Directory：*
 This directory is dedicated to pre-processing images and collecting multimodal data for detection. It supports the integration of visual information with the language model, enabling a more comprehensive analysis and diagnosis.
 
-*AIGC_evaluation and Other Directories*
+*AIGC_evaluation and Other Directories：*
 These directories are used to evaluate the performance of the ThyroidGPT model and compare it with other large language models. They include benchmarking scripts, evaluation metrics, and results analysis tools that help in assessing the model's accuracy, efficiency, and overall effectiveness.
